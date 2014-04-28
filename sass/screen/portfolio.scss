@@ -1,0 +1,47 @@
+/*Portfolio Contents Stylesheet*/
+
+#portfolio-cont{
+	width: 920px;
+	height: 740px;
+	padding: 40px 0px 0px 40px;
+	border-bottom: #DDD solid 1px;
+	.portfolio{
+	
+	width: 280px;
+	height: 220px;
+	margin: 0px 20px 20px 0px;
+	position: relative;
+
+	float: left;
+		img{
+			margin-bottom: 20px;
+		}
+		h1{
+			font-weight: bold;
+			font-size: 14px;
+			line-height: 20px;
+		}
+		p{
+			font-size: 12px;
+			line-height: 20px;
+		}
+	}
+	
+}
+
+#pagination{
+	height: 70px;
+	width: 880px;
+	margin: auto;
+	position: relative;
+	line-height: 50px;
+	span{
+		color: blue;
+		margin-left: 10px;
+		font-size: 12px;
+	}
+	span:first-child{
+		color: black;
+		margin-left: 0px;
+	}
+}

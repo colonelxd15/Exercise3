@@ -1,0 +1,73 @@
+/*Services Contents Stylesheet*/
+
+.serv-container{
+	height: 400px;
+	width: 880px;
+	padding: 40px;
+	border-bottom: 1px #BBB solid;
+	box-shadow: 0px 12px 14px -3px #DDD;
+	.serv-contents{
+		height: 400px;
+		width: 280px;
+		float: left;
+		position: relative;
+		margin: 0px 20px 0px 0px;
+		h2{
+			font-size: 18px;
+			margin: 0px 0px 25px 0px;
+		}
+		img{
+			position: relative;
+			margin:	0px auto 20px auto;
+			height: 140px;
+			width: inherit;
+		}
+		p{
+			line-height: 25px;
+			font-size: 14px;
+		}
+		button{
+			height:25px;
+			position: absolute;
+			border-radius: 3px;
+			border: #DDD 1px solid;
+			background: -webkit-linear-gradient(#EEE , #FFF);
+			background: -o-linear-gradient(#EEE , #FFF);
+			background: -moz-linear-gradient(#EEE , #FFF);
+			background: linear-gradient(#EEE , #FFF); 
+		}
+		.port-button{
+			bottom: 0px;
+			left: 0px;
+		}
+		.hire-button{
+			bottom: 0px;
+			right: 0px;
+		}
+	}
+	.serv-contents:last-child{
+		margin: 0px 0px 0px 0px;
+	}	
+}
+
+#benefits-cont{
+	height: 335px;
+	padding: 20px 40px;
+	h1{
+		font-size: 25px;
+		margin: 0px 0px 30px 0px;
+	}
+	.benefits{
+	width: 400px;
+	height: 100px;
+	position: relative;
+	float: left;
+	margin: 0px 30px 0px 0px;
+	font-size: 12px;
+
+		img{
+			float: left;
+			margin: 0px 15px 0px 0px;
+		}
+	}
+}

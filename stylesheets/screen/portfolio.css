@@ -1,0 +1,51 @@
+/*Portfolio Contents Stylesheet*/
+/* line 3, ../../sass/screen/portfolio.scss */
+#portfolio-cont {
+  width: 920px;
+  height: 740px;
+  padding: 40px 0px 0px 40px;
+  border-bottom: #DDD solid 1px;
+}
+/* line 8, ../../sass/screen/portfolio.scss */
+#portfolio-cont .portfolio {
+  width: 280px;
+  height: 220px;
+  margin: 0px 20px 20px 0px;
+  position: relative;
+  float: left;
+}
+/* line 16, ../../sass/screen/portfolio.scss */
+#portfolio-cont .portfolio img {
+  margin-bottom: 20px;
+}
+/* line 19, ../../sass/screen/portfolio.scss */
+#portfolio-cont .portfolio h1 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* line 24, ../../sass/screen/portfolio.scss */
+#portfolio-cont .portfolio p {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+/* line 32, ../../sass/screen/portfolio.scss */
+#pagination {
+  height: 70px;
+  width: 880px;
+  margin: auto;
+  position: relative;
+  line-height: 50px;
+}
+/* line 38, ../../sass/screen/portfolio.scss */
+#pagination span {
+  color: blue;
+  margin-left: 10px;
+  font-size: 12px;
+}
+/* line 43, ../../sass/screen/portfolio.scss */
+#pagination span:first-child {
+  color: black;
+  margin-left: 0px;
+}
