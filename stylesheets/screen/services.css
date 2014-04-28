@@ -109,6 +109,6 @@
   margin: 0px 15px 20px 0px;
 }
 /* line 103, ../../sass/screen/services.scss */
-#benefits-cont p {
+#benefits-cont p, #benefits-cont h1 {
   color: #575757;
 }
