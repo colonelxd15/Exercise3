@@ -43,6 +43,14 @@ body{
 	img, h1,h4{
 		float: left;
 	}
+	h4{
+		color: #575757;
+		font-weight: bold;
+	}
+	h4:last-child{
+		font-size: 14px;
+		font-weight:normal;
+	}
 	img{
 		height: 40px;
 		width: 50px;
@@ -96,6 +104,7 @@ body{
 			a:link {color:#6B6B6B;}
 			a:visited {color:#6B6B6B;}
 			a:hover {
+				/***************
 				padding: 5px 14px;
 				margin: 25px 0px 0px 0px;
 				background: -webkit-linear-gradient($hovercol1, $hovercol2, $hovercol1);
@@ -105,14 +114,15 @@ body{
 				color:#FFF;
 				border: #000 solid 1px;
 				border-radius: 5px;
+				***************/
 			}
 			a:active {color:#6B6B6B;}  
 		}
 	}
 
 
-input,button,textarea{
-	color: #575757;
+input[type="text"],button,textarea{
+	color: #6e6e6e;
 	font-weight: bold;
 	border-radius: 3px;
 	border: $bordercolor2 1px solid;
@@ -120,6 +130,12 @@ input,button,textarea{
 	background: -o-linear-gradient($gradcol3, $gradcol2);
 	background: -moz-linear-gradient($gradcol3, $gradcol2);
 	background: linear-gradient($gradcol3, $gradcol2);
+}
+input[type="submit"]{
+	color: #6e6e6e;
+	font-weight: bold;
+	border-radius: 3px;
+	border: $bordercolor2 1px solid;
 }
 #title button{
 	background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#BBB), color-stop(0.5, #EEE));
@@ -198,6 +214,10 @@ input,button,textarea{
 		input[type="submit"]{
 			width: 100px;
 			margin-top: 20px;
+			background: -webkit-linear-gradient($gradcol2, $gradcol3);
+			background: -o-linear-gradient($gradcol2, $gradcol3);
+			background: -moz-linear-gradient($gradcol2, $gradcol3);
+			background: linear-gradient($gradcol2, $gradcol3);
 		}
 	}
 	#sidebar{
@@ -329,4 +349,15 @@ input,button,textarea{
 		background: url('../resources/business-2.png');
 		background-repeat: no-repeat;
 	}
+}
+#activepage{
+	padding: 5px 14px;
+	margin: 25px 0px 0px 0px;
+	background: -webkit-linear-gradient($hovercol1, $hovercol2, $hovercol1);
+	background: -o-linear-gradient($hovercol1, $hovercol2, $hovercol1);
+	background: -moz-linear-gradient($hovercol1, $hovercol2, $hovercol1);
+	background: linear-gradient($hovercol1, $hovercol2, $hovercol1);
+	color:#FFF;
+	border: #000 solid 1px;
+	border-radius: 5px;
 }

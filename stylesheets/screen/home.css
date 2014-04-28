@@ -18,20 +18,19 @@
 /* line 17, ../../sass/screen/home.scss */
 #slider #title h1, #slider #title h2 {
   word-spacing: 5px;
+  text-shadow: 3px 3px 5px #444;
 }
 /* line 21, ../../sass/screen/home.scss */
 #slider #title h2 {
   font-size: 25px;
   line-height: 30px;
-  text-shadow: 1px 1px 5px #444;
 }
-/* line 26, ../../sass/screen/home.scss */
+/* line 25, ../../sass/screen/home.scss */
 #slider #title h1 {
   font-size: 30px;
   line-height: 40px;
-  text-shadow: 2px 2px 5px #444;
 }
-/* line 32, ../../sass/screen/home.scss */
+/* line 31, ../../sass/screen/home.scss */
 #slider #title button {
   height: 50px;
   width: 280px;
@@ -40,7 +39,7 @@
   border-radius: 10px;
   box-shadow: 1px 1px 5px 0px #444;
 }
-/* line 39, ../../sass/screen/home.scss */
+/* line 38, ../../sass/screen/home.scss */
 #slider #title button h6 {
   color: #BA0017;
   font-weight: bold;
@@ -48,18 +47,18 @@
   text-indent: 20px;
   font-size: 20px;
 }
-/* line 46, ../../sass/screen/home.scss */
+/* line 45, ../../sass/screen/home.scss */
 #slider #title button img {
   position: absolute;
   right: 20px;
   top: 17px;
 }
-/* line 55, ../../sass/screen/home.scss */
+/* line 54, ../../sass/screen/home.scss */
 #slider .slider-con {
   position: absolute;
   float: right;
 }
-/* line 59, ../../sass/screen/home.scss */
+/* line 58, ../../sass/screen/home.scss */
 #slider #slider-bg {
   height: 304px;
   width: 450px;
@@ -70,7 +69,7 @@
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-/* line 68, ../../sass/screen/home.scss */
+/* line 67, ../../sass/screen/home.scss */
 #slider #slider-bg div {
   border-top: 25px solid #111;
   border-left: 25px solid #EEE;
@@ -79,7 +78,7 @@
   position: absolute;
   bottom: 0px;
 }
-/* line 77, ../../sass/screen/home.scss */
+/* line 76, ../../sass/screen/home.scss */
 #slider #imageslider {
   height: 300px;
   width: 400px;
@@ -87,24 +86,24 @@
   right: 55px;
   overflow: hidden;
 }
-/* line 83, ../../sass/screen/home.scss */
+/* line 82, ../../sass/screen/home.scss */
 #slider #imageslider h1 {
   margin-top: 10px;
   font-size: 25px;
 }
-/* line 87, ../../sass/screen/home.scss */
+/* line 86, ../../sass/screen/home.scss */
 #slider #imageslider #holder {
   height: auto;
   width: 1600px;
 }
-/* line 90, ../../sass/screen/home.scss */
+/* line 89, ../../sass/screen/home.scss */
 #slider #imageslider #holder img {
   margin-top: 10px;
   border: solid 1px #FFF;
   float: left;
   position: relative;
 }
-/* line 97, ../../sass/screen/home.scss */
+/* line 96, ../../sass/screen/home.scss */
 #slider #imageslider #slidecounter {
   width: 80px;
   height: 15px;
@@ -112,7 +111,7 @@
   top: 20px;
   right: 0px;
 }
-/* line 103, ../../sass/screen/home.scss */
+/* line 102, ../../sass/screen/home.scss */
 #slider #imageslider #slidecounter span {
   height: 15px;
   width: 15px;
@@ -120,17 +119,17 @@
   float: left;
   margin: 0px 5px 0px 0px;
 }
-/* line 110, ../../sass/screen/home.scss */
+/* line 109, ../../sass/screen/home.scss */
 #slider #imageslider #slidecounter .black {
   background: url("../resources/blackdot.png");
   background-repeat: no-repeat;
 }
-/* line 114, ../../sass/screen/home.scss */
+/* line 113, ../../sass/screen/home.scss */
 #slider #imageslider #slidecounter #white {
   background: url("../resources/whitedot.png");
   background-repeat: no-repeat;
 }
-/* line 119, ../../sass/screen/home.scss */
+/* line 118, ../../sass/screen/home.scss */
 #slider #imageslider #slidecounter img {
   height: 15px;
   width: 15px;
@@ -139,12 +138,12 @@
   margin: 0px 5px 0px 0px;
 }
 
-/* line 131, ../../sass/screen/home.scss */
+/* line 130, ../../sass/screen/home.scss */
 #contents {
   height: 670px;
   width: auto;
 }
-/* line 134, ../../sass/screen/home.scss */
+/* line 133, ../../sass/screen/home.scss */
 #contents #note {
   height: 140px;
   width: auto;
@@ -153,7 +152,7 @@
   border-top: solid 1px #FFF;
   color: #6B6B6B;
 }
-/* line 141, ../../sass/screen/home.scss */
+/* line 140, ../../sass/screen/home.scss */
 #contents #note .note-content {
   height: 100px;
   width: 250px;
@@ -161,31 +160,31 @@
   position: relative;
   margin: 50px 0px 0px 50px;
 }
-/* line 147, ../../sass/screen/home.scss */
+/* line 146, ../../sass/screen/home.scss */
 #contents #note .note-content b {
   font-size: 16px;
 }
-/* line 150, ../../sass/screen/home.scss */
+/* line 149, ../../sass/screen/home.scss */
 #contents #note .note-content p {
   font-size: 13px;
   line-height: 15px;
   margin-top: 5px;
 }
-/* line 155, ../../sass/screen/home.scss */
+/* line 154, ../../sass/screen/home.scss */
 #contents #note .note-content img {
   position: relative;
   float: left;
   margin: 0px 15px 0px 0px;
 }
 
-/* line 164, ../../sass/screen/home.scss */
+/* line 163, ../../sass/screen/home.scss */
 #cont-desc {
   width: auto;
   height: 500px;
   background: #FFF;
   margin: 40px 0px 0px 0px;
 }
-/* line 170, ../../sass/screen/home.scss */
+/* line 169, ../../sass/screen/home.scss */
 #cont-desc .desc {
   height: 400px;
   width: 280px;
@@ -193,43 +192,43 @@
   float: left;
   margin: 0px 0px 0px 35px;
 }
-/* line 177, ../../sass/screen/home.scss */
+/* line 176, ../../sass/screen/home.scss */
 #cont-desc .desc h1, #cont-desc .desc p {
   color: #575757;
 }
-/* line 180, ../../sass/screen/home.scss */
+/* line 179, ../../sass/screen/home.scss */
 #cont-desc .desc h1 {
   font-size: 30px;
   margin: 10px 0px 25px 0px;
 }
-/* line 184, ../../sass/screen/home.scss */
+/* line 183, ../../sass/screen/home.scss */
 #cont-desc .desc img {
   margin: 0px 0px 30px 0px;
 }
-/* line 187, ../../sass/screen/home.scss */
+/* line 186, ../../sass/screen/home.scss */
 #cont-desc .desc p {
   font-size: 12px;
   line-height: 20px;
 }
-/* line 191, ../../sass/screen/home.scss */
+/* line 190, ../../sass/screen/home.scss */
 #cont-desc .desc button {
   margin: 25px 0px 0px 0px;
   height: 25px;
 }
-/* line 195, ../../sass/screen/home.scss */
+/* line 194, ../../sass/screen/home.scss */
 #cont-desc .desc div {
   margin: 25px 0px 0px 0px;
 }
-/* line 198, ../../sass/screen/home.scss */
+/* line 197, ../../sass/screen/home.scss */
 #cont-desc .desc div span {
   height: 16px;
 }
-/* line 201, ../../sass/screen/home.scss */
+/* line 200, ../../sass/screen/home.scss */
 #cont-desc .desc div span img {
   float: left;
   margin: 0px;
 }
-/* line 205, ../../sass/screen/home.scss */
+/* line 204, ../../sass/screen/home.scss */
 #cont-desc .desc div span a {
   text-decoration: none;
   font-size: 14px;
