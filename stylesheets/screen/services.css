@@ -45,12 +45,12 @@
 .serv-container .serv-contents div img {
   position: absolute;
   top: 0px;
-  left: 30px;
+  left: 35px;
 }
 /* line 46, ../../sass/screen/services.scss */
 .serv-container .serv-contents p {
   line-height: 25px;
-  font-size: 14px;
+  font-size: 13px;
 }
 /* line 50, ../../sass/screen/services.scss */
 .serv-container .serv-contents button {
