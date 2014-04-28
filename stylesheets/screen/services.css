@@ -15,26 +15,47 @@
   position: relative;
   margin: 0px 20px 0px 0px;
 }
-/* line 15, ../../sass/screen/services.scss */
+/* line 16, ../../sass/screen/services.scss */
+.serv-container .serv-contents h2, .serv-container .serv-contents h3, .serv-container .serv-contents p {
+  color: #585858;
+}
+/* line 21, ../../sass/screen/services.scss */
 .serv-container .serv-contents h2 {
+  font-size: 20px;
+  float: left;
+}
+/* line 24, ../../sass/screen/services.scss */
+.serv-container .serv-contents h2 b {
+  font-size: 15px;
+}
+/* line 28, ../../sass/screen/services.scss */
+.serv-container .serv-contents h3 {
   font-size: 18px;
-  margin: 0px 0px 25px 0px;
+  line-height: 20px;
 }
-/* line 19, ../../sass/screen/services.scss */
-.serv-container .serv-contents img {
-  position: relative;
-  margin: 0px auto 20px auto;
+/* line 33, ../../sass/screen/services.scss */
+.serv-container .serv-contents div {
+  margin: 40px 0px 20px 0px;
   height: 140px;
-  width: inherit;
+  width: 265px;
+  border: solid 1px #DDD;
+  position: relative;
 }
-/* line 25, ../../sass/screen/services.scss */
+/* line 39, ../../sass/screen/services.scss */
+.serv-container .serv-contents div img {
+  position: absolute;
+  top: 0px;
+  left: 30px;
+}
+/* line 46, ../../sass/screen/services.scss */
 .serv-container .serv-contents p {
   line-height: 25px;
   font-size: 14px;
 }
-/* line 29, ../../sass/screen/services.scss */
+/* line 50, ../../sass/screen/services.scss */
 .serv-container .serv-contents button {
   height: 25px;
+  margin: 0px;
   position: absolute;
   border-radius: 3px;
   border: #DDD 1px solid;
@@ -43,32 +64,37 @@
   background: -moz-linear-gradient(#eeeeee, white);
   background: linear-gradient(#eeeeee, #ffffff);
 }
-/* line 39, ../../sass/screen/services.scss */
+/* line 61, ../../sass/screen/services.scss */
 .serv-container .serv-contents .port-button {
   bottom: 0px;
   left: 0px;
 }
-/* line 43, ../../sass/screen/services.scss */
+/* line 65, ../../sass/screen/services.scss */
 .serv-container .serv-contents .hire-button {
   bottom: 0px;
   right: 0px;
 }
-/* line 48, ../../sass/screen/services.scss */
+/* line 73, ../../sass/screen/services.scss */
+.serv-container .serv-contents:first-child div img, .serv-container .serv-contents:last-child div img {
+  top: 0px;
+  left: 0px;
+}
+/* line 79, ../../sass/screen/services.scss */
 .serv-container .serv-contents:last-child {
   margin: 0px 0px 0px 0px;
 }
 
-/* line 53, ../../sass/screen/services.scss */
+/* line 84, ../../sass/screen/services.scss */
 #benefits-cont {
   height: 335px;
   padding: 20px 40px;
 }
-/* line 56, ../../sass/screen/services.scss */
+/* line 87, ../../sass/screen/services.scss */
 #benefits-cont h1 {
   font-size: 25px;
   margin: 0px 0px 30px 0px;
 }
-/* line 60, ../../sass/screen/services.scss */
+/* line 91, ../../sass/screen/services.scss */
 #benefits-cont .benefits {
   width: 400px;
   height: 100px;
@@ -77,8 +103,12 @@
   margin: 0px 30px 0px 0px;
   font-size: 12px;
 }
-/* line 68, ../../sass/screen/services.scss */
+/* line 98, ../../sass/screen/services.scss */
 #benefits-cont .benefits img {
   float: left;
   margin: 0px 15px 0px 0px;
+}
+/* line 103, ../../sass/screen/services.scss */
+#benefits-cont p {
+  color: #575757;
 }

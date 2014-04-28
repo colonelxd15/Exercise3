@@ -1,5 +1,9 @@
 /*Portfolio Contents Stylesheet*/
 
+
+$gradcol2: #FFF;
+$gradcol3: #EEE;
+
 #portfolio-cont{
 	width: 920px;
 	height: 740px;
@@ -16,6 +20,9 @@
 		img{
 			margin-bottom: 20px;
 		}
+		h1,p{
+			color: #575757;
+		}
 		h1{
 			font-weight: bold;
 			font-size: 14px;
@@ -31,10 +38,16 @@
 
 #pagination{
 	height: 70px;
-	width: 880px;
+	width: 960px;
 	margin: auto;
 	position: relative;
 	line-height: 50px;
+
+	background: -webkit-linear-gradient($gradcol3, $gradcol2);
+	background: -o-linear-gradient($gradcol3, $gradcol2);
+	background: -moz-linear-gradient($gradcol3, $gradcol2);
+	background: linear-gradient($gradcol3, $gradcol2);
+
 	span{
 		color: blue;
 		margin-left: 10px;
@@ -42,6 +55,6 @@
 	}
 	span:first-child{
 		color: black;
-		margin-left: 0px;
+		margin-left: 40px;
 	}
 }

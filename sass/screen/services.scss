@@ -12,22 +12,44 @@
 		float: left;
 		position: relative;
 		margin: 0px 20px 0px 0px;
+		
+		h2,h3,p{
+			color: #585858;
+		}
+		
+		
 		h2{
+			font-size: 20px;
+			float: left;
+			b{
+				font-size: 15px;
+			}
+		}
+		h3{
 			font-size: 18px;
-			margin: 0px 0px 25px 0px;
+			line-height: 20px;
 		}
-		img{
-			position: relative;
-			margin:	0px auto 20px auto;
+		
+		div{
+			margin:	40px 0px 20px 0px;
 			height: 140px;
-			width: inherit;
+			width: 265px;
+			border: solid 1px #DDD;	
+			position: relative;
+			img{
+				position: absolute;
+				top: 0px;
+				left: 30px;
+			}
 		}
+		
 		p{
 			line-height: 25px;
 			font-size: 14px;
 		}
 		button{
 			height:25px;
+			margin: 0px;
 			position: absolute;
 			border-radius: 3px;
 			border: #DDD 1px solid;
@@ -45,6 +67,15 @@
 			right: 0px;
 		}
 	}
+	.serv-contents:first-child, .serv-contents:last-child
+		{
+			div{
+				img{
+					top:0px;
+					left:0px;
+				}
+			}
+		}
 	.serv-contents:last-child{
 		margin: 0px 0px 0px 0px;
 	}	
@@ -64,10 +95,12 @@
 	float: left;
 	margin: 0px 30px 0px 0px;
 	font-size: 12px;
-
 		img{
 			float: left;
 			margin: 0px 15px 0px 0px;
 		}
+	}
+	p{
+		color: #575757;
 	}
 }

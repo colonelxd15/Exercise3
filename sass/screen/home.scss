@@ -66,16 +66,16 @@
   		border-top-left-radius: 10px;
   		border-top-right-radius: 10px;	
   		div{
-			border-top: 30px solid #111;
+			border-top: 25px solid #111;
  			border-left: 25px solid #EEE;
 			border-right: 25px solid #EEE;
  			width: 400px;
   			position: absolute;
- 			bottom: -6px;
+ 			bottom: 0px;
 		}
 	}	
 	#imageslider{
-		height: 307px;
+		height: 300px;
   		width: 400px;
   		top: 20px;
   		right: 55px;
@@ -127,7 +127,7 @@
 				width: 250px;
 				float: left;
 				position: relative;
-				margin: 40px 0px 0px 50px;
+				margin: 50px 0px 0px 50px;
 				b{
 					font-size: 16px;
 				}
@@ -158,6 +158,9 @@
 				float: left;
 				margin: 0px 0px 0px 35px;
 					
+					h1,p{
+						color: #575757;
+					}
 					h1{
 						font-size: 30px;
 						margin: 10px 0px 25px 0px;

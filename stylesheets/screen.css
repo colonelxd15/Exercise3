@@ -174,12 +174,12 @@ ul li a:visited {
 }
 /* line 98, ../sass/screen/layout.scss */
 ul li a:hover {
-  padding: 9px 14px;
+  padding: 5px 14px;
   margin: 25px 0px 0px 0px;
-  background: -webkit-linear-gradient(#1058bb, #003e8c, #1058bb);
-  background: -o-linear-gradient(#1058bb, #003e8c, #1058bb);
-  background: -moz-linear-gradient(#1058bb, #003e8c, #1058bb);
-  background: linear-gradient(#1058bb, #003e8c, #1058bb);
+  background: -webkit-linear-gradient(#266ed0, #013b85, #266ed0);
+  background: -o-linear-gradient(#266ed0, #013b85, #266ed0);
+  background: -moz-linear-gradient(#266ed0, #013b85, #266ed0);
+  background: linear-gradient(#266ed0, #013b85, #266ed0);
   color: #FFF;
   border: #000 solid 1px;
   border-radius: 5px;
@@ -191,6 +191,8 @@ ul li a:active {
 
 /* line 114, ../sass/screen/layout.scss */
 input, button, textarea {
+  color: #575757;
+  font-weight: bold;
   border-radius: 3px;
   border: #dddddd 1px solid;
   background: -webkit-linear-gradient(#eeeeee, white);
@@ -199,12 +201,12 @@ input, button, textarea {
   background: linear-gradient(#eeeeee, #ffffff);
 }
 
-/* line 122, ../sass/screen/layout.scss */
+/* line 124, ../sass/screen/layout.scss */
 #title button {
   background: -webkit-gradient(linear, left top, left bottom, from(white), to(#bbbbbb), color-stop(0.5, #eeeeee));
 }
 
-/* line 126, ../sass/screen/layout.scss */
+/* line 128, ../sass/screen/layout.scss */
 #banner-header {
   height: 85px;
   width: 100%;
@@ -213,7 +215,7 @@ input, button, textarea {
   background-repeat: no-repeat;
   color: #FFF;
 }
-/* line 133, ../sass/screen/layout.scss */
+/* line 135, ../sass/screen/layout.scss */
 #banner-header h1 {
   top: 30px;
   left: 40px;
@@ -221,7 +223,7 @@ input, button, textarea {
   float: left;
   position: relative;
 }
-/* line 140, ../sass/screen/layout.scss */
+/* line 142, ../sass/screen/layout.scss */
 #banner-header div {
   position: absolute;
   width: 500px;
@@ -229,53 +231,54 @@ input, button, textarea {
   top: 10px;
   right: 40px;
 }
-/* line 147, ../sass/screen/layout.scss */
+/* line 149, ../sass/screen/layout.scss */
 #banner-header div ul li {
   margin: 35px 0px 0px 30px;
 }
-/* line 151, ../sass/screen/layout.scss */
+/* line 153, ../sass/screen/layout.scss */
 #banner-header div p {
   margin: 30px 0px 0px 30px;
   font-style: italic;
   font-size: 18px;
 }
 
-/* line 159, ../sass/screen/layout.scss */
+/* line 161, ../sass/screen/layout.scss */
 #cont {
   height: 720px;
   width: 100%;
 }
-/* line 162, ../sass/screen/layout.scss */
+/* line 164, ../sass/screen/layout.scss */
 #cont #content {
   height: 85.20%;
   width: 63.65%;
   position: relative;
   float: left;
   padding: 5.56%;
+  color: #575757;
   border-right: 1px solid #dddddd;
   box-shadow: 15px 10px 30px 0px #dddddd;
 }
-/* line 170, ../sass/screen/layout.scss */
+/* line 173, ../sass/screen/layout.scss */
 #cont #content p {
   line-height: 25px;
   font-size: 14px;
   margin: 0px 0px 25px 0px;
 }
-/* line 175, ../sass/screen/layout.scss */
+/* line 178, ../sass/screen/layout.scss */
 #cont #content h1 {
   font-size: 16px;
   margin: 20px 0px 20px 0px;
 }
-/* line 179, ../sass/screen/layout.scss */
+/* line 182, ../sass/screen/layout.scss */
 #cont #content h1:first-child {
   margin: 0px 0px 20px 0px;
 }
-/* line 182, ../sass/screen/layout.scss */
+/* line 185, ../sass/screen/layout.scss */
 #cont #content input {
   height: 25px;
   width: 380px;
 }
-/* line 186, ../sass/screen/layout.scss */
+/* line 189, ../sass/screen/layout.scss */
 #cont #content textarea {
   height: 200px;
   width: 380px;
@@ -285,19 +288,19 @@ input, button, textarea {
   background: -moz-linear-gradient(#eeeeee, white 20%);
   background: linear-gradient(#eeeeee, #ffffff 20%);
 }
-/* line 195, ../sass/screen/layout.scss */
+/* line 198, ../sass/screen/layout.scss */
 #cont #content input[type="submit"] {
   width: 100px;
   margin-top: 20px;
 }
-/* line 200, ../sass/screen/layout.scss */
+/* line 203, ../sass/screen/layout.scss */
 #cont #sidebar {
   height: 100%;
   width: 25%;
   position: relative;
   float: left;
 }
-/* line 205, ../sass/screen/layout.scss */
+/* line 208, ../sass/screen/layout.scss */
 #cont #sidebar h5 {
   height: 30px;
   line-height: 30px;
@@ -310,35 +313,42 @@ input, button, textarea {
   background: -moz-linear-gradient(right, #cccccc, white);
   background: linear-gradient(to right, #cccccc, #ffffff);
 }
-/* line 217, ../sass/screen/layout.scss */
+/* line 220, ../sass/screen/layout.scss */
 #cont #sidebar h5:first-child {
   margin: 50px 0px 20px 0px;
 }
-/* line 220, ../sass/screen/layout.scss */
-#cont #sidebar p, #cont #sidebar h4 {
-  line-height: 30px;
-  font-size: 15px;
-}
 /* line 224, ../sass/screen/layout.scss */
-#cont #sidebar span {
-  color: blue;
-  line-height: 20px;
+#cont #sidebar h5 {
+  margin: 30px 0px 20px 0px;
 }
 /* line 227, ../sass/screen/layout.scss */
+#cont #sidebar p, #cont #sidebar h4, #cont #sidebar span {
+  line-height: 20px;
+  font-size: 15px;
+}
+/* line 231, ../sass/screen/layout.scss */
+#cont #sidebar span {
+  color: blue;
+}
+/* line 233, ../sass/screen/layout.scss */
 #cont #sidebar span img {
   margin: 0px 15px 0px 25px;
   float: left;
 }
-/* line 232, ../sass/screen/layout.scss */
+/* line 239, ../sass/screen/layout.scss */
+#cont #sidebar p {
+  text-indent: -25px;
+}
+/* line 242, ../sass/screen/layout.scss */
 #cont #sidebar h4 {
   text-indent: 25px;
 }
-/* line 235, ../sass/screen/layout.scss */
+/* line 245, ../sass/screen/layout.scss */
 #cont #sidebar > img {
   margin: 0px -20px 0px 25px;
 }
 
-/* line 241, ../sass/screen/layout.scss */
+/* line 251, ../sass/screen/layout.scss */
 #footer {
   height: 275px;
   border-top: solid 1px #bbbbbb;
@@ -346,59 +356,59 @@ input, button, textarea {
   background: #ebebeb;
   color: #6b6b6b;
 }
-/* line 248, ../sass/screen/layout.scss */
+/* line 258, ../sass/screen/layout.scss */
 #footer p, #footer strong, #footer b, #footer li {
   font-size: 12px;
   line-height: 20px;
 }
-/* line 253, ../sass/screen/layout.scss */
+/* line 263, ../sass/screen/layout.scss */
 #footer h4 {
   font-size: 16px;
   font-weight: bold;
   margin: 0px 0px 30px 0px;
 }
-/* line 258, ../sass/screen/layout.scss */
+/* line 268, ../sass/screen/layout.scss */
 #footer div {
   float: left;
   position: relative;
   margin: 20px 0px 0px 30px;
   height: 250px;
 }
-/* line 264, ../sass/screen/layout.scss */
+/* line 274, ../sass/screen/layout.scss */
 #footer #sitemap {
   width: 200px;
 }
-/* line 266, ../sass/screen/layout.scss */
+/* line 276, ../sass/screen/layout.scss */
 #footer #sitemap ul {
   width: 110px;
 }
-/* line 268, ../sass/screen/layout.scss */
+/* line 278, ../sass/screen/layout.scss */
 #footer #sitemap ul li {
   float: left;
   margin: 0px 0px;
 }
-/* line 274, ../sass/screen/layout.scss */
+/* line 284, ../sass/screen/layout.scss */
 #footer #testimonials {
   width: 350px;
 }
-/* line 278, ../sass/screen/layout.scss */
+/* line 288, ../sass/screen/layout.scss */
 #footer #testimonials b {
   font-weight: bold;
 }
-/* line 282, ../sass/screen/layout.scss */
+/* line 292, ../sass/screen/layout.scss */
 #footer #blog {
   width: 300px;
 }
-/* line 284, ../sass/screen/layout.scss */
+/* line 294, ../sass/screen/layout.scss */
 #footer #blog h5 {
   margin: 25px 0px 0px 0px;
 }
-/* line 287, ../sass/screen/layout.scss */
+/* line 297, ../sass/screen/layout.scss */
 #footer #blog strong {
   color: blue;
 }
 
-/* line 292, ../sass/screen/layout.scss */
+/* line 302, ../sass/screen/layout.scss */
 #foot {
   height: 50px;
   width: auto;
@@ -407,27 +417,27 @@ input, button, textarea {
   border-bottom-right-radius: 7px;
   line-height: 25px;
 }
-/* line 299, ../sass/screen/layout.scss */
+/* line 309, ../sass/screen/layout.scss */
 #foot p, #foot span, #foot #footlogo {
   position: relative;
   float: left;
 }
-/* line 303, ../sass/screen/layout.scss */
+/* line 313, ../sass/screen/layout.scss */
 #foot p {
   width: 580px;
   margin: 10px 0px 0px 30px;
   font-size: 12px;
   color: #6b6b6b;
 }
-/* line 309, ../sass/screen/layout.scss */
+/* line 319, ../sass/screen/layout.scss */
 #foot span {
   margin: 10px 0px 0px 35px;
 }
-/* line 311, ../sass/screen/layout.scss */
+/* line 321, ../sass/screen/layout.scss */
 #foot span img {
   margin-right: 10px;
 }
-/* line 315, ../sass/screen/layout.scss */
+/* line 325, ../sass/screen/layout.scss */
 #foot #footlogo {
   height: 50px;
   width: 150px;
@@ -510,16 +520,16 @@ input, button, textarea {
 }
 /* line 68, ../sass/screen/home.scss */
 #slider #slider-bg div {
-  border-top: 30px solid #111;
+  border-top: 25px solid #111;
   border-left: 25px solid #EEE;
   border-right: 25px solid #EEE;
   width: 400px;
   position: absolute;
-  bottom: -6px;
+  bottom: 0px;
 }
 /* line 77, ../sass/screen/home.scss */
 #slider #imageslider {
-  height: 307px;
+  height: 300px;
   width: 400px;
   top: 20px;
   right: 55px;
@@ -579,7 +589,7 @@ input, button, textarea {
   width: 250px;
   float: left;
   position: relative;
-  margin: 40px 0px 0px 50px;
+  margin: 50px 0px 0px 50px;
 }
 /* line 131, ../sass/screen/home.scss */
 #contents #note .note-content b {
@@ -614,38 +624,42 @@ input, button, textarea {
   margin: 0px 0px 0px 35px;
 }
 /* line 161, ../sass/screen/home.scss */
+#cont-desc .desc h1, #cont-desc .desc p {
+  color: #575757;
+}
+/* line 164, ../sass/screen/home.scss */
 #cont-desc .desc h1 {
   font-size: 30px;
   margin: 10px 0px 25px 0px;
 }
-/* line 165, ../sass/screen/home.scss */
+/* line 168, ../sass/screen/home.scss */
 #cont-desc .desc img {
   margin: 0px 0px 30px 0px;
 }
-/* line 168, ../sass/screen/home.scss */
+/* line 171, ../sass/screen/home.scss */
 #cont-desc .desc p {
   font-size: 12px;
   line-height: 20px;
 }
-/* line 172, ../sass/screen/home.scss */
+/* line 175, ../sass/screen/home.scss */
 #cont-desc .desc button {
   margin: 25px 0px 0px 0px;
   height: 25px;
 }
-/* line 176, ../sass/screen/home.scss */
+/* line 179, ../sass/screen/home.scss */
 #cont-desc .desc div {
   margin: 25px 0px 0px 0px;
 }
-/* line 179, ../sass/screen/home.scss */
+/* line 182, ../sass/screen/home.scss */
 #cont-desc .desc div span {
   height: 16px;
 }
-/* line 182, ../sass/screen/home.scss */
+/* line 185, ../sass/screen/home.scss */
 #cont-desc .desc div span img {
   float: left;
   margin: 0px;
 }
-/* line 186, ../sass/screen/home.scss */
+/* line 189, ../sass/screen/home.scss */
 #cont-desc .desc div span a {
   text-decoration: none;
   font-size: 14px;
@@ -668,26 +682,47 @@ input, button, textarea {
   position: relative;
   margin: 0px 20px 0px 0px;
 }
-/* line 15, ../sass/screen/services.scss */
+/* line 16, ../sass/screen/services.scss */
+.serv-container .serv-contents h2, .serv-container .serv-contents h3, .serv-container .serv-contents p {
+  color: #585858;
+}
+/* line 21, ../sass/screen/services.scss */
 .serv-container .serv-contents h2 {
+  font-size: 20px;
+  float: left;
+}
+/* line 24, ../sass/screen/services.scss */
+.serv-container .serv-contents h2 b {
+  font-size: 15px;
+}
+/* line 28, ../sass/screen/services.scss */
+.serv-container .serv-contents h3 {
   font-size: 18px;
-  margin: 0px 0px 25px 0px;
+  line-height: 20px;
 }
-/* line 19, ../sass/screen/services.scss */
-.serv-container .serv-contents img {
-  position: relative;
-  margin: 0px auto 20px auto;
+/* line 33, ../sass/screen/services.scss */
+.serv-container .serv-contents div {
+  margin: 40px 0px 20px 0px;
   height: 140px;
-  width: inherit;
+  width: 265px;
+  border: solid 1px #DDD;
+  position: relative;
 }
-/* line 25, ../sass/screen/services.scss */
+/* line 39, ../sass/screen/services.scss */
+.serv-container .serv-contents div img {
+  position: absolute;
+  top: 0px;
+  left: 30px;
+}
+/* line 46, ../sass/screen/services.scss */
 .serv-container .serv-contents p {
   line-height: 25px;
   font-size: 14px;
 }
-/* line 29, ../sass/screen/services.scss */
+/* line 50, ../sass/screen/services.scss */
 .serv-container .serv-contents button {
   height: 25px;
+  margin: 0px;
   position: absolute;
   border-radius: 3px;
   border: #DDD 1px solid;
@@ -696,32 +731,37 @@ input, button, textarea {
   background: -moz-linear-gradient(#eeeeee, white);
   background: linear-gradient(#eeeeee, #ffffff);
 }
-/* line 39, ../sass/screen/services.scss */
+/* line 61, ../sass/screen/services.scss */
 .serv-container .serv-contents .port-button {
   bottom: 0px;
   left: 0px;
 }
-/* line 43, ../sass/screen/services.scss */
+/* line 65, ../sass/screen/services.scss */
 .serv-container .serv-contents .hire-button {
   bottom: 0px;
   right: 0px;
 }
-/* line 48, ../sass/screen/services.scss */
+/* line 73, ../sass/screen/services.scss */
+.serv-container .serv-contents:first-child div img, .serv-container .serv-contents:last-child div img {
+  top: 0px;
+  left: 0px;
+}
+/* line 79, ../sass/screen/services.scss */
 .serv-container .serv-contents:last-child {
   margin: 0px 0px 0px 0px;
 }
 
-/* line 53, ../sass/screen/services.scss */
+/* line 84, ../sass/screen/services.scss */
 #benefits-cont {
   height: 335px;
   padding: 20px 40px;
 }
-/* line 56, ../sass/screen/services.scss */
+/* line 87, ../sass/screen/services.scss */
 #benefits-cont h1 {
   font-size: 25px;
   margin: 0px 0px 30px 0px;
 }
-/* line 60, ../sass/screen/services.scss */
+/* line 91, ../sass/screen/services.scss */
 #benefits-cont .benefits {
   width: 400px;
   height: 100px;
@@ -730,21 +770,25 @@ input, button, textarea {
   margin: 0px 30px 0px 0px;
   font-size: 12px;
 }
-/* line 68, ../sass/screen/services.scss */
+/* line 98, ../sass/screen/services.scss */
 #benefits-cont .benefits img {
   float: left;
   margin: 0px 15px 0px 0px;
 }
+/* line 103, ../sass/screen/services.scss */
+#benefits-cont p {
+  color: #575757;
+}
 
 /*Portfolio Contents Stylesheet*/
-/* line 3, ../sass/screen/portfolio.scss */
+/* line 7, ../sass/screen/portfolio.scss */
 #portfolio-cont {
   width: 920px;
   height: 740px;
   padding: 40px 0px 0px 40px;
   border-bottom: #DDD solid 1px;
 }
-/* line 8, ../sass/screen/portfolio.scss */
+/* line 12, ../sass/screen/portfolio.scss */
 #portfolio-cont .portfolio {
   width: 280px;
   height: 220px;
@@ -752,38 +796,46 @@ input, button, textarea {
   position: relative;
   float: left;
 }
-/* line 16, ../sass/screen/portfolio.scss */
+/* line 20, ../sass/screen/portfolio.scss */
 #portfolio-cont .portfolio img {
   margin-bottom: 20px;
 }
-/* line 19, ../sass/screen/portfolio.scss */
+/* line 23, ../sass/screen/portfolio.scss */
+#portfolio-cont .portfolio h1, #portfolio-cont .portfolio p {
+  color: #575757;
+}
+/* line 26, ../sass/screen/portfolio.scss */
 #portfolio-cont .portfolio h1 {
   font-weight: bold;
   font-size: 14px;
   line-height: 20px;
 }
-/* line 24, ../sass/screen/portfolio.scss */
+/* line 31, ../sass/screen/portfolio.scss */
 #portfolio-cont .portfolio p {
   font-size: 12px;
   line-height: 20px;
 }
 
-/* line 32, ../sass/screen/portfolio.scss */
+/* line 39, ../sass/screen/portfolio.scss */
 #pagination {
   height: 70px;
-  width: 880px;
+  width: 960px;
   margin: auto;
   position: relative;
   line-height: 50px;
+  background: -webkit-linear-gradient(#eeeeee, white);
+  background: -o-linear-gradient(#eeeeee, white);
+  background: -moz-linear-gradient(#eeeeee, white);
+  background: linear-gradient(#eeeeee, #ffffff);
 }
-/* line 38, ../sass/screen/portfolio.scss */
+/* line 51, ../sass/screen/portfolio.scss */
 #pagination span {
   color: blue;
   margin-left: 10px;
   font-size: 12px;
 }
-/* line 43, ../sass/screen/portfolio.scss */
+/* line 56, ../sass/screen/portfolio.scss */
 #pagination span:first-child {
   color: black;
-  margin-left: 0px;
+  margin-left: 40px;
 }

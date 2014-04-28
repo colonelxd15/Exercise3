@@ -5,8 +5,8 @@ $fontcolor: #6B6B6b;
 $bgcolor2: #EBEBEB;
 $bordercolor: #BBB;
 $bordercolor2: #DDD;
-$hovercol1: #1058BB;
-$hovercol2: #003E8C;
+$hovercol1: #266ed0;
+$hovercol2: #013b85;
 $gradcol1: #CCC;
 $gradcol2: #FFF;
 $gradcol3: #EEE;
@@ -96,7 +96,7 @@ body{
 			a:link {color:#6B6B6B;}
 			a:visited {color:#6B6B6B;}
 			a:hover {
-				padding: 9px 14px;
+				padding: 5px 14px;
 				margin: 25px 0px 0px 0px;
 				background: -webkit-linear-gradient($hovercol1, $hovercol2, $hovercol1);
 				background: -o-linear-gradient($hovercol1, $hovercol2, $hovercol1);
@@ -112,6 +112,8 @@ body{
 
 
 input,button,textarea{
+	color: #575757;
+	font-weight: bold;
 	border-radius: 3px;
 	border: $bordercolor2 1px solid;
 	background: -webkit-linear-gradient($gradcol3, $gradcol2);
@@ -165,6 +167,7 @@ input,button,textarea{
 		position: relative;
 		float: left;
 		padding: 5.56%;
+		color: #575757;
 		border-right: 1px solid $bordercolor2;
 		box-shadow: 15px 10px 30px 0px $bordercolor2;
 		p{
@@ -217,17 +220,24 @@ input,button,textarea{
 		h5:first-child{
 			margin: 50px 0px 20px 0px;
 		}
-		p,h4{
-			line-height: 30px;
+
+		h5{
+			margin: 30px 0px 20px 0px;
+		}
+		p,h4,span{
+			line-height: 20px;
 			font-size: 15px;	
 		}
 		span{
 			color: blue;
-			line-height: 20px;
 			img{
 				margin: 0px 15px 0px 25px;
 				float:left;
 			}
+		}
+
+		p{
+			text-indent: -25px;
 		}
 		h4{
 			text-indent: 25px;
