@@ -2,7 +2,7 @@
 /* line 7, ../../sass/screen/portfolio.scss */
 #portfolio-cont {
   width: 920px;
-  height: 740px;
+  height: 780px;
   padding: 40px 0px 0px 40px;
   border-bottom: #DDD solid 1px;
 }
@@ -10,7 +10,7 @@
 #portfolio-cont .portfolio {
   width: 280px;
   height: 220px;
-  margin: 0px 20px 20px 0px;
+  margin: 0px 20px 40px 0px;
   position: relative;
   float: left;
 }

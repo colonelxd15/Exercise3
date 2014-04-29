@@ -269,7 +269,7 @@ input[type="submit"]{
 }
 
 #footer{
-	height: 275px;
+	height: 210px;
 	border-top: solid 1px $bordercolor;
 	border-bottom: solid 1px $bordercolor;
 	background: $bgcolor2;
@@ -289,7 +289,7 @@ input[type="submit"]{
 		float: left;
 		position: relative;
 		margin: 20px 0px 0px 30px;
-		height: 250px;
+		height: 190px;
 	}
 	#sitemap{
 		width: 200px;
@@ -306,17 +306,23 @@ input[type="submit"]{
 		width: 350px;
 
 		b{
+			color: #000;
 			font-weight: bold;
 		}
 	}
 	#blog{
 		width: 300px;
 		h5{
-			margin: 25px 0px 0px 0px;
+			margin: 10px 0px 0px 0px;
+			font-size: 14px;
 		}
 		strong{
 			color: blue;
 		}
+		p{
+			line-height: 13px;
+		}
+		
 	}
 }
 #foot{

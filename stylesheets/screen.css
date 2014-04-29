@@ -374,7 +374,7 @@ input[type="submit"] {
 
 /* line 271, ../sass/screen/layout.scss */
 #footer {
-  height: 275px;
+  height: 210px;
   border-top: solid 1px #bbbbbb;
   border-bottom: solid 1px #bbbbbb;
   background: #ebebeb;
@@ -396,7 +396,7 @@ input[type="submit"] {
   float: left;
   position: relative;
   margin: 20px 0px 0px 30px;
-  height: 250px;
+  height: 190px;
 }
 /* line 294, ../sass/screen/layout.scss */
 #footer #sitemap {
@@ -417,22 +417,28 @@ input[type="submit"] {
 }
 /* line 308, ../sass/screen/layout.scss */
 #footer #testimonials b {
+  color: #000;
   font-weight: bold;
 }
-/* line 312, ../sass/screen/layout.scss */
+/* line 313, ../sass/screen/layout.scss */
 #footer #blog {
   width: 300px;
 }
-/* line 314, ../sass/screen/layout.scss */
+/* line 315, ../sass/screen/layout.scss */
 #footer #blog h5 {
-  margin: 25px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
+  font-size: 14px;
 }
-/* line 317, ../sass/screen/layout.scss */
+/* line 319, ../sass/screen/layout.scss */
 #footer #blog strong {
   color: blue;
 }
-
 /* line 322, ../sass/screen/layout.scss */
+#footer #blog p {
+  line-height: 13px;
+}
+
+/* line 328, ../sass/screen/layout.scss */
 #foot {
   height: 50px;
   width: auto;
@@ -441,27 +447,27 @@ input[type="submit"] {
   border-bottom-right-radius: 7px;
   line-height: 25px;
 }
-/* line 329, ../sass/screen/layout.scss */
+/* line 335, ../sass/screen/layout.scss */
 #foot p, #foot span, #foot #footlogo {
   position: relative;
   float: left;
 }
-/* line 333, ../sass/screen/layout.scss */
+/* line 339, ../sass/screen/layout.scss */
 #foot p {
   width: 580px;
   margin: 10px 0px 0px 30px;
   font-size: 12px;
   color: #6b6b6b;
 }
-/* line 339, ../sass/screen/layout.scss */
+/* line 345, ../sass/screen/layout.scss */
 #foot span {
   margin: 10px 0px 0px 35px;
 }
-/* line 341, ../sass/screen/layout.scss */
+/* line 347, ../sass/screen/layout.scss */
 #foot span img {
   margin-right: 10px;
 }
-/* line 345, ../sass/screen/layout.scss */
+/* line 351, ../sass/screen/layout.scss */
 #foot #footlogo {
   height: 50px;
   width: 150px;
@@ -470,7 +476,7 @@ input[type="submit"] {
   background-repeat: no-repeat;
 }
 
-/* line 353, ../sass/screen/layout.scss */
+/* line 359, ../sass/screen/layout.scss */
 #activepage {
   padding: 5px 14px;
   margin: 25px 0px 0px 0px;
@@ -843,7 +849,7 @@ input[type="submit"] {
 /* line 7, ../sass/screen/portfolio.scss */
 #portfolio-cont {
   width: 920px;
-  height: 740px;
+  height: 780px;
   padding: 40px 0px 0px 40px;
   border-bottom: #DDD solid 1px;
 }
@@ -851,7 +857,7 @@ input[type="submit"] {
 #portfolio-cont .portfolio {
   width: 280px;
   height: 220px;
-  margin: 0px 20px 20px 0px;
+  margin: 0px 20px 40px 0px;
   position: relative;
   float: left;
 }
